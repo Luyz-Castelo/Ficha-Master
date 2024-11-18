@@ -14,22 +14,35 @@ namespace Ficha_Master.Data.Entity
         public string Origem { get; set; }
         public string Classe { get; set; }
         public string Divindade { get; set; }
+        /*Atributos*/
         public int Forca { get; set; }
         public int Destreza { get; set; }
         public int Inteligencia { get; set; }
         public int Constituicao { get; set; }
         public int Sabedoria { get; set; }
         public int Carisma { get; set; }
+        /*Vida e Mana*/
         public int Pontos_de_Vida_Atual { get; set; }
         public int Pontos_de_Vida_Total { get; set; }
         public int Pontos_de_Mana_Atual { get; set; }
         public int Pontos_de_Mana_Total { get; set; }
         public int Pontos_de_Experiencia { get; set; }
         public string Tamanho { get; set; }
-        public string Atributo_Chave { get; set; } /*Tributo Chave para Lançar Magias --> Precisa Adicionar o Modificador do Atributo e o Valor do Teste de Resistência na tela da ficha*/
+        public string Atributo_Chave { get; set; } 
+        /*
+            Tributo Chave para Lançar Magias --> Precisa Adicionar o Modificador do Atributo e o Valor do Teste de Resistência na tela da ficha
+        */
         public string Proficiencias { get; set; }
+        /*
+            --> As porficiências devem ser separados por , (Virgua)
+            --> Na hora de morstas as informações devemos utilizar o metodo .Split para separa as informações e mostralas separadamente na interface.
+        */
 
         /*Perícias*/
+        /* 
+            Devem ser calculados na hora que os dados forem passados para a Interface
+            Calculo: Bonus de Proficiência + Bonus do Atributo + Treinamente + Outros 
+        */
         public bool Acrobacia { get; set; }
         public bool Adestramento { get; set; }
         public bool Atletismo { get; set; }
@@ -74,21 +87,25 @@ namespace Ficha_Master.Data.Entity
         /* 
            --> os itens deve ser separados por uma / (Barra) e as informações devem ser separadas por , (Virgulas)
            --> Na hora de morstas as informações devemos utilizar o metodo .Split para separa as informações e mostralas separadamente na interface.
+           --> Informações: Nome do Item , Dano , Preço , Critico , Alcanse , Tipo , Espaço , Quantidade
         */
         public string Magias {get; set;}
         /* 
            --> os itens deve ser separados por uma / (Barra) e as informações devem ser separadas por , (Virgulas)
            --> Na hora de morstas as informações devemos utilizar o metodo .Split para separa as informações e mostralas separadamente na interface.
+           --> Informações: Nome da Magia , Descrição , Execução , Alcance , Alvo , Duração , Escola
         */
         public string Habilidades {get; set;}
         /* 
            --> os itens deve ser separados por uma / (Barra) e as informações devem ser separadas por , (Virgulas)
            --> Na hora de morstas as informações devemos utilizar o metodo .Split para separa as informações e mostralas separadamente na interface.
+           --> Informações: Nome da Habilidade , Descrição
         */
         public string Poderes {get; set;}
         /* 
            --> os itens deve ser separados por uma / (Barra) e as informações devem ser separadas por , (Virgulas)
            --> Na hora de morstas as informações devemos utilizar o metodo .Split para separa as informações e mostralas separadamente na interface.
+           --> Informações: Nome do Poder , Descrição
         */
 
 
