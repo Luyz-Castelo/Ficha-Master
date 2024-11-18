@@ -70,15 +70,31 @@ namespace Ficha_Master.Data.Entity
         public string Escudo_Equipado_Nome { get; set; }
         public int Escudo_Equipado_Valor { get; set; }
 
-        public List<Itens> Mochila {get; set;}  = new();
-        public List<Magias> Magias {get; set;} = new();
-        public List<Habilidades> Habilidades {get; set;} = new();
-        public List<Habilidades> Poderes {get; set;} = new();
+        public string Mochila {get; set;} 
+        /* 
+           --> os itens deve ser separados por uma / (Barra) e as informações devem ser separadas por , (Virgulas)
+           --> Na hora de morstas as informações devemos utilizar o metodo .Split para separa as informações e mostralas separadamente na interface.
+        */
+        public string Magias {get; set;}
+        /* 
+           --> os itens deve ser separados por uma / (Barra) e as informações devem ser separadas por , (Virgulas)
+           --> Na hora de morstas as informações devemos utilizar o metodo .Split para separa as informações e mostralas separadamente na interface.
+        */
+        public string Habilidades {get; set;}
+        /* 
+           --> os itens deve ser separados por uma / (Barra) e as informações devem ser separadas por , (Virgulas)
+           --> Na hora de morstas as informações devemos utilizar o metodo .Split para separa as informações e mostralas separadamente na interface.
+        */
+        public string Poderes {get; set;}
+        /* 
+           --> os itens deve ser separados por uma / (Barra) e as informações devem ser separadas por , (Virgulas)
+           --> Na hora de morstas as informações devemos utilizar o metodo .Split para separa as informações e mostralas separadamente na interface.
+        */
 
 
 
     }
-
+    /*
     public class Itens
     {
         public int Id { get; set;}
@@ -109,5 +125,5 @@ namespace Ficha_Master.Data.Entity
         public int Id { get; set;}
         public string Nome { get; set;}
         public string Descricao { get; set;}
-    }
+    }*/
 }
