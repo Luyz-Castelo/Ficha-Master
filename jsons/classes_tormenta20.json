@@ -1,0 +1,82 @@
+[
+    {
+        "Nome da Classe": "Arcanista",
+        "Pontos de Vida": "8 + Modificador de Constituição por nível",
+        "Pontos de Mana": "6 + Modificador de Inteligência ou Carisma por nível",
+        "Perícias": [
+            "Misticismo",
+            "Vontade",
+            "mais 2"
+        ],
+        "Habilidades de Classe": [
+            {
+                "Nome da Habilidade": "Magias",
+                "Descrição": "Pode lançar magias arcanas. Ganha acesso a magias conforme seu nível."
+            },
+            {
+                "Nome da Habilidade": "Poder de Arcanista",
+                "Descrição": "Escolhe um poder específico de sua classe ao atingir certos níveis."
+            }
+        ]
+    },
+    {
+        "Nome da Classe": "Bárbaro",
+        "Pontos de Vida": "24 + Modificador de Constituição por nível",
+        "Pontos de Mana": "3 + Modificador de Constituição por nível",
+        "Perícias": [
+            "Fortitude",
+            "Luta",
+            "mais 4"
+        ],
+        "Habilidades de Classe": [
+            {
+                "Nome da Habilidade": "Fúria",
+                "Descrição": "Pode entrar em um estado de fúria, ganhando bônus temporários em combate."
+            },
+            {
+                "Nome da Habilidade": "Resistência",
+                "Descrição": "Recebe redução de dano enquanto estiver em fúria."
+            }
+        ]
+    },
+    {
+        "Nome da Classe": "Clérigo",
+        "Pontos de Vida": "16 + Modificador de Constituição por nível",
+        "Pontos de Mana": "5 + Modificador de Sabedoria por nível",
+        "Perícias": [
+            "Religião",
+            "Vontade",
+            "mais 2"
+        ],
+        "Habilidades de Classe": [
+            {
+                "Nome da Habilidade": "Canalizar Energia",
+                "Descrição": "Pode gastar PM para curar aliados ou ferir inimigos na área."
+            },
+            {
+                "Nome da Habilidade": "Poder de Domínio",
+                "Descrição": "Ganha um poder baseado no domínio do deus que serve."
+            }
+        ]
+    },
+    {
+        "Nome da Classe": "Guerreiro",
+        "Pontos de Vida": "20 + Modificador de Constituição por nível",
+        "Pontos de Mana": "3 + Modificador de Constituição por nível",
+        "Perícias": [
+            "Luta ou Pontaria",
+            "Fortitude",
+            "mais 2"
+        ],
+        "Habilidades de Classe": [
+            {
+                "Nome da Habilidade": "Mestre em Armas",
+                "Descrição": "Recebe bônus ao usar armas e pode escolher manobras de combate exclusivas."
+            },
+            {
+                "Nome da Habilidade": "Poder de Guerreiro",
+                "Descrição": "Escolhe um poder de sua lista de poderes ao atingir certos níveis."
+            }
+        ]
+    }
+]

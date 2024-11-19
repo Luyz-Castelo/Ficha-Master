@@ -1,0 +1,93 @@
+[
+    {
+        "Nome": "Adaga",
+        "Categoria": "Arma Simples - Corpo a Corpo - Leve",
+        "Valor": "T$ 2",
+        "Espaço": 1,
+        "Crítico": "19",
+        "Alcance": "Curto",
+        "Tipo": "Perfuração",
+        "Dano": "1d4",
+        "Defesa": null,
+        "Penalidade": null,
+        "Descrição": "Arma leve e simples usada para ataques rápidos e furtivos."
+    },
+    {
+        "Nome": "Armadura de Couro",
+        "Categoria": "Armadura Leve",
+        "Valor": "T$ 20",
+        "Espaço": 2,
+        "Crítico": null,
+        "Alcance": null,
+        "Tipo": null,
+        "Dano": null,
+        "Defesa": "+2",
+        "Penalidade": "0",
+        "Descrição": "Peitoral rígido de couro curtido, oferece proteção básica."
+    },
+    {
+        "Nome": "Besta Explosiva",
+        "Categoria": "Arma de Fogo - Ataque à Distância - Pesada",
+        "Valor": "T$ 3.000",
+        "Espaço": 2,
+        "Crítico": null,
+        "Alcance": "Médio",
+        "Tipo": "Explosão",
+        "Dano": "6d6 + Explosão",
+        "Defesa": null,
+        "Penalidade": null,
+        "Descrição": "Dispara uma bola de fogo ao custo de PM, causando dano em área."
+    },
+    {
+        "Nome": "Escudo Leve",
+        "Categoria": "Escudo",
+        "Valor": "T$ 5",
+        "Espaço": 1,
+        "Crítico": null,
+        "Alcance": null,
+        "Tipo": null,
+        "Dano": null,
+        "Defesa": "+1",
+        "Penalidade": "-1",
+        "Descrição": "Escudo básico que protege contra ataques frontais."
+    },
+    {
+        "Nome": "Água Benta",
+        "Categoria": "Equipamento de Aventura",
+        "Valor": "T$ 10",
+        "Espaço": 0.5,
+        "Crítico": null,
+        "Alcance": "Curto",
+        "Tipo": "Luz",
+        "Dano": "2d10 contra mortos-vivos ou demônios",
+        "Defesa": null,
+        "Penalidade": null,
+        "Descrição": "Dano contra mortos-vivos ou demônios, sem efeito em outros alvos."
+    },
+    {
+        "Nome": "Cota de Malha",
+        "Categoria": "Armadura Pesada",
+        "Valor": "T$ 150",
+        "Espaço": 5,
+        "Crítico": null,
+        "Alcance": null,
+        "Tipo": null,
+        "Dano": null,
+        "Defesa": "+6",
+        "Penalidade": "-2",
+        "Descrição": "Armadura feita de anéis metálicos interligados, flexível e resistente."
+    },
+    {
+        "Nome": "Arpéu",
+        "Categoria": "Equipamento de Aventura",
+        "Valor": "T$ 5",
+        "Espaço": 1,
+        "Crítico": null,
+        "Alcance": null,
+        "Tipo": null,
+        "Dano": null,
+        "Defesa": null,
+        "Penalidade": null,
+        "Descrição": "Gancho de aço usado para escalar ou prender objetos distantes."
+    }
+]
