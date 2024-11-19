@@ -1,10 +1,12 @@
+using Ficha_Master.Data.Enum;
+
 namespace Ficha_Master.Data.Entity
 {
     public class Itens 
     {
         public Guid Id {get; set;}
         public string Nome {get; set;}
-        public string Categoria {get; set;} /*Define qual é a lista do item / Equipamento de Aventura / Vestiário / Ferramentas / Esotéricos / Alquímicos */  /* Define se é uma arma Simples / Marcial / Exótica */ /*As aramduras pode ser Pesadas / Leves / Escudos */
+        public TipoItens tipoItens {get; set;} 
         public int Valor {get; set;}
         public int Espaco {get; set;}
         public string Critico { get; set; }
