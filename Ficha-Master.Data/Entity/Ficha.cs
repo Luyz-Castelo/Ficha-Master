@@ -83,64 +83,13 @@ namespace Ficha_Master.Data.Entity
         public string Escudo_Equipado_Nome { get; set; }
         public int Escudo_Equipado_Valor { get; set; }
 
-        public string Mochila {get; set;} 
-        /* 
-           --> os itens deve ser separados por uma / (Barra) e as informações devem ser separadas por , (Virgulas)
-           --> Na hora de morstas as informações devemos utilizar o metodo .Split para separa as informações e mostralas separadamente na interface.
-           --> Informações: Nome do Item , Dano , Preço , Critico , Alcanse , Tipo , Espaço , Quantidade
-        */
-        public string Magias {get; set;}
-        /* 
-           --> os itens deve ser separados por uma / (Barra) e as informações devem ser separadas por , (Virgulas)
-           --> Na hora de morstas as informações devemos utilizar o metodo .Split para separa as informações e mostralas separadamente na interface.
-           --> Informações: Nome da Magia , Descrição , Execução , Alcance , Alvo , Duração , Escola
-        */
-        public string Habilidades {get; set;}
-        /* 
-           --> os itens deve ser separados por uma / (Barra) e as informações devem ser separadas por , (Virgulas)
-           --> Na hora de morstas as informações devemos utilizar o metodo .Split para separa as informações e mostralas separadamente na interface.
-           --> Informações: Nome da Habilidade , Descrição
-        */
-        public string Poderes {get; set;}
-        /* 
-           --> os itens deve ser separados por uma / (Barra) e as informações devem ser separadas por , (Virgulas)
-           --> Na hora de morstas as informações devemos utilizar o metodo .Split para separa as informações e mostralas separadamente na interface.
-           --> Informações: Nome do Poder , Descrição
-        */
+        public List<Itens> Mochila {get; set;} 
+        public List<Magias> Magias {get; set;}
+        public List<Habilidade> Habilidades {get; set;}
+        public List<Habilidade> Poderes {get; set;}
+        
 
 
 
     }
-    /*
-    public class Itens
-    {
-        public int Id { get; set;}
-        public string Name_item { get; set; }
-        public string Dano { get; set; }
-        public string Preco { get; set; }
-        public string Critico { get; set; }
-        public string Alcance { get; set; }
-        public string Tipo { get; set; }
-        public int Espacos { get; set; }
-        public int Quantidade { get; set; }
-    }
-
-    public class Magias
-    {
-        public int Id { get; set;}
-        public string Nome { get; set;}
-        public string Descricao {get; set;}
-        public string Execucao {get; set;}
-        public string Alcance {get; set;}
-        public string Alvo {get; set;}
-        public string Duracao {get; set;}
-        public string Escola {get; set;}
-    }
-
-    public class Habilidades
-    {
-        public int Id { get; set;}
-        public string Nome { get; set;}
-        public string Descricao { get; set;}
-    }*/
 }
