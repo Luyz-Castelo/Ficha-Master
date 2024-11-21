@@ -83,10 +83,9 @@ namespace Ficha_Master.Data.Entity
         public string Escudo_Equipado_Nome { get; set; }
         public int Escudo_Equipado_Valor { get; set; }
 
-        public List<Itens> Mochila {get; set;} 
+        public List<Itens> MochilaItens {get; set;} 
         public List<Magias> Magias {get; set;}
-        public List<Habilidade> Habilidades {get; set;}
-        public List<Habilidade> Poderes {get; set;}
+        public List<Habilidade> HabilidadesPoderes {get; set;}
         
 
 
